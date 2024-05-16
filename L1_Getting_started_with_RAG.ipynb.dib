@@ -1,0 +1,8 @@
+#!meta
+
+{"kernelInfo":{"defaultKernelName":"javascript","items":[{"aliases":[],"languageName":"javascript","name":"javascript"}]}}
+
+#!javascript
+
+import * as mod from "https://deno.land/std@0.213.0/dotenv/mod.ts";
+const keys = await moxd.load({export:true}) // read API key from .env
